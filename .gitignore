@@ -13,3 +13,7 @@ META.yml
 Amon2-Plugin-Web-MobileAgent-*/
 blib/
 pm_to_blib
+MYMETA.*
+META.json
+README
+Amon2-MobileJP-*/

@@ -1,14 +1,13 @@
 ---
 abstract: 'HTTP::MobileAgent plugin for Amon2'
 author:
-  - 'Tokuhiro Matsuno <tokuhirom AAJKLFJEF GMAIL COM>'
+  - 'Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
   Test::More: 0.98
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 1.01'
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,13 +18,23 @@ no_index:
     - inc
     - t
     - xt
+provides:
+  Amon2::Plugin::Web::MobileAgent:
+    file: lib/Amon2/Plugin/Web/MobileAgent.pm
+    version: 0.05
+  Amon2::Plugin::Web::MobileCharset:
+    file: lib/Amon2/Plugin/Web/MobileCharset.pm
+    version: 0
+  Amon2::Setup::Flavor::MobileJP:
+    file: lib/Amon2/Setup/Flavor/MobileJP.pm
+    version: 0
 requires:
-  Amon2: 3.01
+  Amon2: 3.03
   Encode::JP::Mobile: 0
   HTTP::MobileAgent: 0
   HTTP::MobileAgent::Plugin::Charset: 0
   Lingua::JA::Regular::Unicode: 0
-  perl: 5.8.1
+  perl: v5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.05
