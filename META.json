@@ -4,7 +4,7 @@
       "Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
+   "generated_by" : "Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -34,10 +34,10 @@
       "runtime" : {
          "requires" : {
             "Amon2" : "3.03",
-            "Encode::JP::Mobile" : 0,
-            "HTTP::MobileAgent" : 0,
-            "HTTP::MobileAgent::Plugin::Charset" : 0,
-            "Lingua::JA::Regular::Unicode" : 0,
+            "Encode::JP::Mobile" : "0",
+            "HTTP::MobileAgent" : "0",
+            "HTTP::MobileAgent::Plugin::Charset" : "0",
+            "Lingua::JA::Regular::Unicode" : "0",
             "perl" : "v5.8.1"
          }
       }
@@ -45,7 +45,7 @@
    "provides" : {
       "Amon2::Plugin::Web::MobileAgent" : {
          "file" : "lib/Amon2/Plugin/Web/MobileAgent.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       },
       "Amon2::Plugin::Web::MobileCharset" : {
          "file" : "lib/Amon2/Plugin/Web/MobileCharset.pm",
@@ -62,5 +62,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
