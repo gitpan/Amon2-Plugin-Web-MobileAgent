@@ -33,7 +33,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Amon2" : "3.03",
+            "Amon2" : "3.66",
             "Encode::JP::Mobile" : "0.29",
             "HTTP::MobileAgent" : "0",
             "HTTP::MobileAgent::Plugin::Charset" : "0",
@@ -45,7 +45,7 @@
    "provides" : {
       "Amon2::Plugin::Web::MobileAgent" : {
          "file" : "lib/Amon2/Plugin/Web/MobileAgent.pm",
-         "version" : "0.08"
+         "version" : "0.09"
       },
       "Amon2::Plugin::Web::MobileCharset" : {
          "file" : "lib/Amon2/Plugin/Web/MobileCharset.pm",
@@ -62,5 +62,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.08"
+   "version" : "0.09"
 }
